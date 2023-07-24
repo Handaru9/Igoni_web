@@ -25,7 +25,7 @@
               <div class="col-lg-3">
                 <div
                   class="categories__item set-bg"
-                  data-setbg="{{ $menu_category->photo->getUrl() }}"
+                  data-setbg="{ {$menu_category->photo->getUrl()} }"
                 >
                   <h5><a href="{{ route('shop.index', $menu_category->slug) }}">{{ $menu_category->name }}</a></h5>
                 </div>
